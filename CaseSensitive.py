@@ -4,4 +4,5 @@ x = "Max"
 X = "Alex"
 print(x)
 print(X)
+
 # Here X will not overwrite x
