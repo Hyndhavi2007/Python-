@@ -29,7 +29,7 @@ print(cubes)
 # the variable refers to the existing list. Any changes we make to the list through one variable will be seen through all other variables that refer to it:
 rgb = ["Red", "Green","Blue"]
 print(rgb)
-#rgba = rgb # This does not create a new list.Both variables point to the same list object in memeory.
+rgba = rgb # This does not create a new list.Both variables point to the same list object in memeory.
 # In python id() returns the identity of an object - a value that uniquely identifies that object during its life time.
 print(id(rgb) == id(rgba))
 print(id(rgb))
