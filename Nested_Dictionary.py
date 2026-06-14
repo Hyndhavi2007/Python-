@@ -8,4 +8,4 @@ print(students["s002"]["name"])
 print(students["s001"]["marks"])
 # Loop through nested dict
 for sid, info in students.items():
-    print(f"{sid}: {info['name']} - {info['marks']}")
+    print(f"{sid}: {info['name']} -{info['marks']}")
