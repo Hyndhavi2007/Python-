@@ -1,0 +1,5 @@
+open("file.txt", "r")
+open("file.txt", "w")
+open("file.txt", "a")
+open("file.txt", "x")
+open("file.txt", "rb")
