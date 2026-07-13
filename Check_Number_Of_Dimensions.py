@@ -1,0 +1,13 @@
+import numpy as np
+a = np.array(42)
+b = np.array([1,2,3,4,5])
+c = np.array([[1,2,3],[4,5,6]])
+d = np.array([[[1,2,3],[4,5,6],[7,8,9]]])
+print(a)
+print(b)
+print(c)
+print(d)
+print("The dimension of a is ", a.ndim)
+print("The dimension of b is ", b.ndim)
+print("The dimension of c is ",  c.ndim)
+print("The dimension of d is ", d.ndim)
